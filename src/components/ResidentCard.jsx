@@ -4,10 +4,6 @@ import "./styles/residentCard.css"
 
 const ResidentCard = ({ url }) => {
     const [resident] = useFetch(url)
-    const personajesFiltrados = resident
-
-    console.log(personajesFiltrados)
-
     return (
         <article className='resident'>
             <header className='resident__header'>

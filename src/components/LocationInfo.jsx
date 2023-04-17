@@ -2,7 +2,7 @@ import React from 'react'
 import "./styles/locationInfo.css"
 
 const LocationInfo = ({ location }) => {
-    console.log(location)
+
     return (
         <article className='location'>
             <h2 className='location__name'>{location?.name}</h2>

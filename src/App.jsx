@@ -21,9 +21,6 @@ function App() {
     setValue(inputLocation.current.value)
     // console.log(event.target.firstChild.value)
   }
-  // filtrar por personaje
-  const [texto, setTexto] = useState()
-
 
   return (
     <div className='app'>

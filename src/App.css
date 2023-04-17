@@ -12,7 +12,9 @@
 }
 .pagination {
   margin-top: 50px;
+  padding-bottom: 50px;
 }
+
 .pagination-link {
   /* background-color: rgb(125, 199, 14); */
   color: white;

@@ -1,0 +1,117 @@
+.app {
+  background-color: #05292e;
+  min-height: 100vh;
+}
+.pagination-previous {
+  background-color: rgb(125, 199, 14);
+  margin-left: 100px;
+}
+.pagination-next {
+  background-color: rgb(125, 199, 14);
+  margin-right: 100px;
+}
+.pagination {
+  margin-top: 50px;
+}
+.pagination-link {
+  /* background-color: rgb(125, 199, 14); */
+  color: white;
+}
+.app__title {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.app__form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.app__input {
+  padding: 0.4em 0.8em;
+  border-radius: 0.5em 0 0 0.5em;
+}
+.app__btn {
+  border-radius: 0.5em;
+  pading: 0.1em;
+  background-color: rgb(125, 199, 14);
+  color: white;
+}
+.background_image {
+  max-width: 100vw;
+  max-height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.background_letter {
+  max-height: 200px;
+  margin: auto;
+  justify-content: center;
+  max-width: 600px;
+  position: absolute;
+  top: 50px;
+  left: 35%;
+}
+
+@media (max-width: 821px) {
+  .background_letter {
+    position: absolute;
+    left: 15%;
+  }
+  .pagination-previous {
+    background-color: rgb(125, 199, 14);
+    margin-left: 100px;
+    width: 200px;
+  }
+  .pagination-next {
+    background-color: rgb(125, 199, 14);
+    margin-right: 100px;
+    width: 200px;
+  }
+  .pagination-list {
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .background_letter {
+    position: absolute;
+    left: 0;
+  }
+  .pagination-previous {
+    background-color: rgb(125, 199, 14);
+    margin-left: 100px;
+    width: 90px;
+  }
+  .pagination-next {
+    background-color: rgb(125, 199, 14);
+    margin-right: 100px;
+    width: 90px;
+  }
+  .pagination-list {
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 376px) {
+  .pagination-previous {
+    background-color: rgb(125, 199, 14);
+    margin-left: 100px;
+    width: 50px;
+  }
+  .pagination-next {
+    background-color: rgb(125, 199, 14);
+    margin-right: 100px;
+    width: 50px;
+  }
+  .pagination-list {
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

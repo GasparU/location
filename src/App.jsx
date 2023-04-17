@@ -32,7 +32,7 @@ function App() {
 
       <h1 className='app__title'>Rick and Morty</h1>
       <form onSubmit={handleSumbit} className='app__form'>
-        <input type='text' ref={inputLocation} className='app__input' min="1" />
+        <input type='number' ref={inputLocation} className='app__input' min="1" />
         <button className='app__btn'>Search</button>
       </form>
       <Pagination

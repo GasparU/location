@@ -54,7 +54,9 @@
   top: 50px;
   left: 35%;
 }
-
+.app__error {
+  text-align: center;
+}
 @media (max-width: 821px) {
   .background_letter {
     position: absolute;

@@ -10,7 +10,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1)
 
   const [value, setValue] = useState(getRandomLocation())
-  const url = `https://rickandmortyapi.com/api/location/${value}`;
+  const url = `https://rickandmortyapi.com/api/location/${value || getRandomLocation}`;
   const [location, hasError] = useFetch(url)
 
   const totalproducts = location?.residents.length
@@ -40,7 +40,7 @@ function App() {
       {
         hasError ?
 
-          <h2 className='app__error'>Hey! you must provide an id from 1 to 126</h2>
+          <h2 className='app__error'>Hey! debes ingresar un valor entre 1 y 126</h2>
 
           :
           <MainContent location={location} currentPage={currentPage} productsPerPage={productsPerPage} />
